@@ -40,3 +40,14 @@
 >     ...
 > )
 > ```
+
+## Assignment 2: Building a Movie Searcher with FewShotTemplate
+
+- **Scope**: 4.0 ~ 4.6
+- **Objective**: This challenge is to build a movie search responder using FewShotTemplate to generate consistent, structured outputs.
+
+### 📌 Task
+
+- [x] Create `examples` dictionary containing consistent movie data
+- [x] Each example must include: `director`, `main cast`, `budget`, `box office revenue`, `genre`, and a brief `synopsis`
+- [x] Use `FewShotChatMessagePromptTemplate` to construct a `prompt` that teaches the desired output format
